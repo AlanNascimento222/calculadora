@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#numeros-container {
+    width: 70vh;
+    height: 70vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#caneçalho-container {
+    width: 70vh;
+    height: 15vh;
+    display: grid;
+    background-color: rgb(0, 255, 170);
+}
+
+.numeros-button {
+    font-size: 5vh;
+    transition: 0.5;
+}
+
+.numeros-button:hover {
+    background-color: #aaa;
+}
+
+#inputButton {
+    font-size: 5vh;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" defer>
+</head>
+<body>
+    <div id="calculadora-container" class="teste">
+        <header id="caneçalho-container">
+            <input type="text" id="inputButton">
+        </header>
+        <main id="numeros-container">
+            <button class="numeros-button" id="button-1" onclick="inserir(1)">1</button>
+            <button class="numeros-button" id="button-2" onclick="inserir(2)">2</button>
+            <button class="numeros-button" id="button-3" onclick="inserir(3)">3</button>
+            <button class="numeros-button" id="button-+" onclick="inserir('+')">+</button>
+            <button class="numeros-button" id="button-4" onclick="inserir(4)">4</button>
+            <button class="numeros-button" id="button-5" onclick="inserir(5)">5</button>
+            <button class="numeros-button" id="button-6" onclick="inserir(6)">6</button>
+            <button class="numeros-button" id="button--" onclick="inserir('-')">-</button>
+            <button class="numeros-button" id="button-7" onclick="inserir(7)">7</button>
+            <button class="numeros-button" id="button-8" onclick="inserir(8)">8</button>
+            <button class="numeros-button" id="button-9" onclick="inserir(9)">9</button>
+            <button class="numeros-button" id="button-/" onclick="inserir('/')">/</button>
+            <button class="numeros-button" id="button-0" onclick="inserir(0)">0</button>
+            <button class="numeros-button" id="button-=" onclick="resultado()">=</button>
+            <button class="numeros-button" id="button-*" onclick="inserir('*')">*</button>
+            <button class="numeros-button" id="button-c" onclick="apagar()">c</button>
+        </main>
+    </div>
+</body>
+</html>
